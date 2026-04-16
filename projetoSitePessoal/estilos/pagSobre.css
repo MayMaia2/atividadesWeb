@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+main{
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+h2{
+    color: black;
+    margin-bottom: 10px;  /*bottom = margem inferior (eu acho)*/
+}
+.perfil{
+    position: relative;
+    margin-bottom: 40px;
+}
+.perfil p{
+    max-width: 600px;
+}
+article header{
+    all:unset; /* limpa herança problemática */
+    display: inline-block;
+    background: linear-gradient(45deg, #ff2525, #f76767);
+    padding: 4px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+/*habilidades*/
+section{
+    float: left;
+    width: 70%;
+    margin: 0;
+}
+section ul{
+    margin-top: 10px;
+    padding-left: 0;
+    text-align: center;
+}
+section ul li{
+    list-style: square;
+    list-style-position: inside; /*mantem marcador próximo ao texto*/
+}
+section ul li:hover{
+    color: #e474b5;
+    transform: translateX(5px);
+    cursor: pointer;
+}
+aside{
+    float: right;
+    width: 30%;
+    background-color: #dd7676;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 0;
+}
+footer{
+    clear: both;
+}
+/*Adapta para telas menores, como a de tablets ou celulares*/
+@media(max-width:768px){
+    .perfil{
+        flex-direction: column;
+        text-align: center;
+    }
+    section, aside{
+        float: none;
+        width: 100%;
+    }
+    aside{
+        margin-top: 20px;
+    }
+}
