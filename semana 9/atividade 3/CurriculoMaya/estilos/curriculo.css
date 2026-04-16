@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+section ul{
+    margin-left: 70px;
+}
+body{
+    margin: 40px;
+    background-color: #ddd;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    color: #444;
+    line-height: 1.5;
+}
+section>header h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #db8102;
+    line-height: 2.5;
+}
+a{
+    color: #c47690;
+    text-decoration: none;
+}
+a:hover{
+    color: #ff3679;
+    text-decoration: underline;
+}
+section{
+    margin-bottom: 20px;
+}
+hr{
+    margin: 15px 0;
+}
