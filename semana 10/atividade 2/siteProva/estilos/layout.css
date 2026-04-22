@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(../imagens/fundo.png);
+    background-size: cover;
+    background-position: center;
+    background-position: 60%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: aliceblue;
+}
+
+body>header {
+    background-color: black;
+    color: rgb(216, 216, 216);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    padding: 35px;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 1100;
+}
+
+body>header h1 {
+    font-size: 40px;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 30px;
+}
+
+nav {
+    background-color: rgb(241, 238, 238);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    display: block;
+    clear: both;
+    margin-top: 130px;
+    z-index: 1000;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+    list-style-type: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+nav>ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+    text-align: center;
+}
+
+nav>ul li a img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    margin-top: 20px;
+}
+
+main::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+main {
+    padding-left: 70px;
+    margin-top: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+main header {
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 15px;
+}
+
+main>section article {
+    padding: 40px;
+}
+
+article p {
+    font-size: 20px;
+    font-family: cursive;
+}
+
+article>ul {
+    margin-top: 10px;
+    padding-left: 50px;
+}
+
+article>ul li {
+    font-size: 20px;
+    font-family: cursive;
+}
+
+main>aside {
+    float: right;
+    width: 30%;
+    height: 790px;
+    margin-top: 40px;
+    background: linear-gradient(45deg, #4b4a4a, #000000);
+    color: rgb(160, 154, 154);
+    font-family: cursive;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+main>aside h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+main>aside h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+main>aside h4 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+main>aside ul {
+    padding-left: 25px;
+}
+
+main>aside ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: rgb(212, 212, 212);
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 35px;
+}
