@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Exercícios</title>
+    <link rel="stylesheet" href="../estilos/layout.css">
+    <link rel="stylesheet" href="../estilos/exerc1.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Semana 12 Exercícios</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./exercicio1.html">Exercício 1</a></li>
+            <li><a href="./exercicio2.html">Exercício 2</a></li>
+            <li><a href="./exercicio3.html">Exercício 3</a></li>
+            <li><a href="../index.html">Pag principal</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form id="formulario" action="respFormulario.html" method="post">
+            <fieldset>
+                <legend>Deixe um comentário</legend>
+                
+                <label for="lbNome">Nome:</label>
+                <input type="text" id="ipNome" name="ipNome">
+
+                <label for="lbEmail">Email:</label>
+                <input type="email" id="ipEmail" name="ipEmail" required>
+
+                <label for="lbUrl">Website:</label>
+                <input type="url" id="ipUrl" name="ipUrl" required>
+
+                <label for="lbComentario">Comentário:</label>
+                <textarea name="comentario" id="lbComentario" rows="5"></textarea>
+
+                <h2>Observação: Seu comentário será publicado após passar pelo moderador</h2>
+
+                <input type="submit" value="Enviar Comentário">
+            </fieldset>
+        </form>
+
+    </main>
+</body>
+
+</html>

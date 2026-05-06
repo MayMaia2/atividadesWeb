@@ -1,0 +1,49 @@
+#formulario{
+    max-width: 500px;  
+    padding: 20px;
+    border: none;
+    margin: 0 auto;
+}
+
+fieldset{
+    margin: 10px;
+    padding: 10px;
+    border: none;
+}
+
+fieldset legend{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;    
+}
+
+main h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+textarea{
+    height: 160px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+textarea,
+select{
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0;
+    display: inline-block;
+}
+input[type="submit"] {
+    color: #000000;
+    padding: 2px 5px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    margin-top: 20px;
+}

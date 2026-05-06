@@ -1,0 +1,46 @@
+ body {
+     font-family: Arial, sans-serif;
+ }
+
+ form {
+     width: 400px;
+     margin: 100px auto;
+ }
+
+ form,
+ form * {
+     box-sizing: border-box;
+ }
+
+ fieldset {
+     border: 1px solid #999;
+     padding: 15px;
+ }
+
+ legend {
+     font-weight: bold;
+     padding: 0 10px;
+ }
+
+
+ form>fieldset>fieldset {
+     width: 48%;
+     display: inline-block;
+     vertical-align: top;
+ }
+
+ form>fieldset>fieldset:last-child {
+     margin-right: 0;
+ }
+
+ label {
+     display: inline-block;
+     width: 80px;
+     margin-top: 10px;
+ }
+
+ input {
+     width: 120px;
+     padding: 3px;
+     margin-top: 10px;
+ }
